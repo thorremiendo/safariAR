@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70D8BD42319B44900882160 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8F32316AB17009CFFDA /* Main.storyboard */; };
+		B70D8BD52319B48900882160 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8EF2316AB17009CFFDA /* art.scnassets */; };
+		B70D8BD62319B49000882160 /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B72EC9012316AB57009CFFDA /* elephant.mp4 */; };
+		B70D8BD72319B49200882160 /* rhinos.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B737A33D2318335600A35B00 /* rhinos.mp4 */; };
+		B70D8BD82319B74D00882160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8F62316AB18009CFFDA /* Assets.xcassets */; };
+		B70D8BDA231AAFB800882160 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70D8BD9231AAFB800882160 /* HomeViewController.swift */; };
+		B70D8BE4231AE23400882160 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B70D8BE3231AE23400882160 /* Resnet50.mlmodel */; };
 		B72EC8EE2316AB17009CFFDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC8ED2316AB17009CFFDA /* AppDelegate.swift */; };
-		B72EC8F02316AB17009CFFDA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8EF2316AB17009CFFDA /* art.scnassets */; };
 		B72EC8F22316AB17009CFFDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC8F12316AB17009CFFDA /* ViewController.swift */; };
-		B72EC8F52316AB17009CFFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8F32316AB17009CFFDA /* Main.storyboard */; };
-		B72EC8F72316AB18009CFFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8F62316AB18009CFFDA /* Assets.xcassets */; };
-		B72EC8FA2316AB18009CFFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B72EC8F82316AB18009CFFDA /* LaunchScreen.storyboard */; };
+		B74BFE5C23216850007D0515 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BFE5B23216850007D0515 /* QuizViewController.swift */; };
+		B74BFE5E23217044007D0515 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BFE5D23217044007D0515 /* Question.swift */; };
+		B74BFE6023217062007D0515 /* QuestionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74BFE5F23217062007D0515 /* QuestionList.swift */; };
+		B74BFE66232170EA007D0515 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B74BFE63232170E6007D0515 /* ProgressHUD.bundle */; };
+		B74BFE67232170EA007D0515 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B74BFE64232170E7007D0515 /* ProgressHUD.m */; };
+		B78F0AEE231D76F200BE8599 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F0AED231D76F200BE8599 /* ScanViewController.swift */; };
+		B78F0AF0231D7B6200BE8599 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78F0AEF231D7B6200BE8599 /* CameraViewController.swift */; };
+		B78F0AF2231D7BCB00BE8599 /* AnimalClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B78F0AF1231D7BCB00BE8599 /* AnimalClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70D8BD9231AAFB800882160 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B70D8BE3231AE23400882160 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		B72EC8EA2316AB16009CFFDA /* SafariAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72EC8ED2316AB17009CFFDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B72EC8EF2316AB17009CFFDA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +37,18 @@
 		B72EC8F62316AB18009CFFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B72EC8F92316AB18009CFFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B72EC8FB2316AB19009CFFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72EC9012316AB57009CFFDA /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		B737A33D2318335600A35B00 /* rhinos.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhinos.mp4; sourceTree = "<group>"; };
+		B74BFE5B23216850007D0515 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		B74BFE5D23217044007D0515 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B74BFE5F23217062007D0515 /* QuestionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionList.swift; sourceTree = "<group>"; };
+		B74BFE62232170E4007D0515 /* SafariAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafariAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		B74BFE63232170E6007D0515 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		B74BFE64232170E7007D0515 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		B74BFE65232170EA007D0515 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		B78F0AED231D76F200BE8599 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		B78F0AEF231D7B6200BE8599 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B78F0AF1231D7BCB00BE8599 /* AnimalClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +81,61 @@
 		B72EC8EC2316AB16009CFFDA /* SafariAR */ = {
 			isa = PBXGroup;
 			children = (
+				B74BFE61232170B6007D0515 /* Supporting Files */,
+				B74BFE5A23216679007D0515 /* Model */,
+				B74BFE59232165EF007D0515 /* View */,
+				B74BFE582321653E007D0515 /* Controllers */,
 				B72EC8ED2316AB17009CFFDA /* AppDelegate.swift */,
-				B72EC8EF2316AB17009CFFDA /* art.scnassets */,
-				B72EC8F12316AB17009CFFDA /* ViewController.swift */,
-				B72EC8F32316AB17009CFFDA /* Main.storyboard */,
-				B72EC8F62316AB18009CFFDA /* Assets.xcassets */,
 				B72EC8F82316AB18009CFFDA /* LaunchScreen.storyboard */,
 				B72EC8FB2316AB19009CFFDA /* Info.plist */,
+				B78F0AF1231D7BCB00BE8599 /* AnimalClassifier.mlmodel */,
+				B70D8BE3231AE23400882160 /* Resnet50.mlmodel */,
 			);
 			path = SafariAR;
+			sourceTree = "<group>";
+		};
+		B74BFE582321653E007D0515 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC8F12316AB17009CFFDA /* ViewController.swift */,
+				B78F0AEF231D7B6200BE8599 /* CameraViewController.swift */,
+				B78F0AED231D76F200BE8599 /* ScanViewController.swift */,
+				B70D8BD9231AAFB800882160 /* HomeViewController.swift */,
+				B74BFE5B23216850007D0515 /* QuizViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B74BFE59232165EF007D0515 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B72EC8F32316AB17009CFFDA /* Main.storyboard */,
+				B72EC8EF2316AB17009CFFDA /* art.scnassets */,
+				B72EC8F62316AB18009CFFDA /* Assets.xcassets */,
+				B737A33D2318335600A35B00 /* rhinos.mp4 */,
+				B72EC9012316AB57009CFFDA /* elephant.mp4 */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B74BFE5A23216679007D0515 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B74BFE5D23217044007D0515 /* Question.swift */,
+				B74BFE5F23217062007D0515 /* QuestionList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B74BFE61232170B6007D0515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B74BFE63232170E6007D0515 /* ProgressHUD.bundle */,
+				B74BFE65232170EA007D0515 /* ProgressHUD.h */,
+				B74BFE64232170E7007D0515 /* ProgressHUD.m */,
+				B74BFE62232170E4007D0515 /* SafariAR-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +170,7 @@
 				TargetAttributes = {
 					B72EC8E92316AB16009CFFDA = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -125,10 +197,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B72EC8F02316AB17009CFFDA /* art.scnassets in Resources */,
-				B72EC8FA2316AB18009CFFDA /* LaunchScreen.storyboard in Resources */,
-				B72EC8F72316AB18009CFFDA /* Assets.xcassets in Resources */,
-				B72EC8F52316AB17009CFFDA /* Main.storyboard in Resources */,
+				B70D8BD72319B49200882160 /* rhinos.mp4 in Resources */,
+				B70D8BD42319B44900882160 /* Main.storyboard in Resources */,
+				B74BFE66232170EA007D0515 /* ProgressHUD.bundle in Resources */,
+				B70D8BD52319B48900882160 /* art.scnassets in Resources */,
+				B70D8BD62319B49000882160 /* elephant.mp4 in Resources */,
+				B70D8BD82319B74D00882160 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +215,15 @@
 			files = (
 				B72EC8F22316AB17009CFFDA /* ViewController.swift in Sources */,
 				B72EC8EE2316AB17009CFFDA /* AppDelegate.swift in Sources */,
+				B70D8BE4231AE23400882160 /* Resnet50.mlmodel in Sources */,
+				B74BFE5E23217044007D0515 /* Question.swift in Sources */,
+				B74BFE5C23216850007D0515 /* QuizViewController.swift in Sources */,
+				B78F0AF0231D7B6200BE8599 /* CameraViewController.swift in Sources */,
+				B74BFE67232170EA007D0515 /* ProgressHUD.m in Sources */,
+				B70D8BDA231AAFB800882160 /* HomeViewController.swift in Sources */,
+				B74BFE6023217062007D0515 /* QuestionList.swift in Sources */,
+				B78F0AEE231D76F200BE8599 /* ScanViewController.swift in Sources */,
+				B78F0AF2231D7BCB00BE8599 /* AnimalClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PF2P6PZ42;
 				INFOPLIST_FILE = SafariAR/Info.plist;
@@ -295,6 +379,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zetcapstone.SafariAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SafariAR/Supporting Files/SafariAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PF2P6PZ42;
 				INFOPLIST_FILE = SafariAR/Info.plist;
@@ -313,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = zetcapstone.SafariAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SafariAR/Supporting Files/SafariAR-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
